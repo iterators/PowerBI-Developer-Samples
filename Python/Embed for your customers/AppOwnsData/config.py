@@ -7,13 +7,13 @@ class BaseConfig(object):
     AUTHENTICATION_MODE = 'ServicePrincipal'
 
     # Workspace Id in which the report is present
-    WORKSPACE_ID = ''
+    WORKSPACE_ID = '5c2c2c9c-8cde-40e3-b2ab-ac53dadd6801'
     
     # Report Id for which Embed token needs to be generated
-    REPORT_ID = ''
+    REPORT_ID = 'dbb0723d-6422-406b-bb30-64bafd8d4cc6'
     
     # Id of the Azure tenant in which AAD app and Power BI report is hosted. Required only for ServicePrincipal authentication mode.
-    TENANT_ID = ''
+    TENANT_ID = 'f1044067-8c60-4022-98d8-69306c5f7238'
     
     # Client Id (Application Id) of the AAD app
     CLIENT_ID = ''
