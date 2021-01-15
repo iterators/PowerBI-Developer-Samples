@@ -16,7 +16,7 @@ class BaseConfig(object):
     TENANT_ID = 'f1044067-8c60-4022-98d8-69306c5f7238'
     
     # Client Id (Application Id) of the AAD app
-     CLIENT_ID = '015256e0-7d36-44cd-8f53-eacfffabfa7c'
+    CLIENT_ID = '015256e0-7d36-44cd-8f53-eacfffabfa7c'
     
     
     # Client Secret (App Secret) of the AAD app. Required only for ServicePrincipal authentication mode.
